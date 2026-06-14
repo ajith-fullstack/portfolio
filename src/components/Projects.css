@@ -1,0 +1,153 @@
+.projects {
+  padding: 100px 8%;
+  background: #f8fafc;
+}
+
+.projects .section-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.projects .section-title h2 {
+  font-size: 42px;
+  color: #111827;
+}
+
+.projects .section-title p {
+  color: #64748b;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 35px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, .08);
+  transition: all .35s ease;
+  border: 1px solid transparent;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  border-color: #3b82f6;
+  box-shadow: 0 25px 50px rgba(37, 99, 235, .18);
+}
+
+.project-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  transition: transform .5s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.08);
+}
+
+.project-content {
+  padding: 25px;
+}
+
+.project-content h3 {
+  font-size: 28px;
+  color: #111827;
+  margin-bottom: 15px;
+}
+
+.project-content p {
+  color: #64748b;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.tech-stack span {
+  background: #eef2ff;
+  color: #2563eb;
+  padding: 8px 15px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.project-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.project-buttons a {
+  flex: 1;
+  text-decoration: none;
+  padding: 13px 18px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  transition: all .3s ease;
+}
+
+.project-buttons a:first-child {
+  background: #2563eb;
+  color: #fff;
+}
+
+.project-buttons a:first-child:hover {
+  background: #1d4ed8;
+}
+
+.project-buttons a:last-child {
+  border: 2px solid #2563eb;
+  color: #2563eb;
+}
+
+.project-buttons a:last-child:hover {
+  background: #2563eb;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+
+  .projects {
+    padding: 80px 20px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .projects .section-title h2 {
+    font-size: 34px;
+  }
+
+  .project-content h3 {
+    font-size: 24px;
+  }
+
+  .project-card img {
+    height: 200px;
+  }
+
+  .project-buttons {
+    flex-direction: column;
+  }
+
+}
