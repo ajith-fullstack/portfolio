@@ -19,7 +19,7 @@ function Hero() {
           <a href="#contact" className="btn primary">
             Hire Me
           </a>
-          <a href="/resume.pdf" className="btn secondary" download="ajithkumar_resume.pdf">
+          <a href="/ajithkumar_resume.pdf" className="btn secondary" download>
             <FaDownload />
             Resume
           </a>
