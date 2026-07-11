@@ -64,7 +64,7 @@ function About() {
               <span>20+</span>
             </div>
           </div>
-          <a href="/ajithkumar_resume.pdf" className="download-btn" download>
+          <a href="/ajith_resume.pdf" className="download-btn" download>
             Download Resume
           </a>
         </motion.div>
