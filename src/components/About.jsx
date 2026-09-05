@@ -1,5 +1,5 @@
 import "./About.css";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.png";
 import { motion } from "framer-motion";
 import { FaUserGraduate, FaLaptopCode, FaBriefcase } from "react-icons/fa";
 
@@ -21,7 +21,7 @@ function About() {
         >
           <img src={profile} alt="Ajith Kumar" />
           <div className="experience-card">
-            <h3>3+</h3>
+            <h3>4+</h3>
             <p>Years Experience</p>
           </div>
         </motion.div>
@@ -34,8 +34,7 @@ function About() {
         >
           <h3>Full Stack Developer</h3>
           <p>
-            I'm a passionate Full Stack Developer with experience in React,
-            Angular, Node.js, Express.js, MongoDB, Shopify App Development,
+            I'm a passionate Full Stack Developer with experience in React, Node.js, Express.js, MongoDB, Shopify App Development,
             GraphQL, REST APIs, Authentication Systems, and Payment Integration.
           </p>
           <p>
@@ -49,7 +48,7 @@ function About() {
             <div className="card">
               <FaBriefcase className="icon" />
               <h4>Experience</h4>
-              <span>3+ Years</span>
+              <span>4+ Years</span>
             </div>
 
             <div className="card">
@@ -64,7 +63,7 @@ function About() {
               <span>20+</span>
             </div>
           </div>
-          <a href="/ajith_resume.pdf" className="download-btn" download>
+          <a href="/Ajithkumar_resume.pdf" className="download-btn" download>
             Download Resume
           </a>
         </motion.div>

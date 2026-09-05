@@ -12,11 +12,9 @@ import {
 } from "react-icons/fa";
 
 import {
-  SiAngular,
   SiExpress,
   SiMongodb,
   SiJavascript,
-  SiTypescript,
   SiGraphql,
   SiShopify,
   SiBigcommerce,
@@ -32,13 +30,11 @@ import { RiSecurePaymentFill } from "react-icons/ri";
 
 const skills = [
   { icon: <SiJavascript />, name: "JavaScript", color: "#F7DF1E" },
-  { icon: <SiTypescript />, name: "TypeScript", color: "#3178C6" },
   { icon: <FaHtml5 />, name: "HTML5", color: "#E34F26" },
   { icon: <FaCss3Alt />, name: "CSS3", color: "#1572B6" },
   { icon: <SiDart />, name: "Dart", color: "#0175C2" },
   { icon: <TbBrandOauth />, name: "Liquid", color: "#4A90E2" },
   { icon: <FaReact />, name: "React.js", color: "#61DBFB" },
-  { icon: <SiAngular />, name: "Angular", color: "#DD0031" },
   { icon: <SiFlutter />, name: "Flutter", color: "#02569B" },
   { icon: <FaNodeJs />, name: "Node.js", color: "#68A063" },
   { icon: <SiExpress />, name: "Express.js", color: "#444444" },

@@ -1,5 +1,5 @@
 import "./Hero.css";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/profile.png";
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from "react-icons/fa";
 
 function Hero() {
@@ -10,7 +10,7 @@ function Hero() {
         <h1>Ajithkumar</h1>
         <h2>Full Stack Developer</h2>
         <p className="hero-description">
-          I'm a Full Stack Developer specializing in React, Angular, Node.js,
+          I'm a Full Stack Developer specializing in React, Node.js,
           Express.js, MongoDB, and Shopify development. I'm currently open to
           Full Stack Developer opportunities where I can build scalable,
           high-performance web applications and contribute to innovative teams.
@@ -19,7 +19,7 @@ function Hero() {
           <a href="#contact" className="btn primary">
             Hire Me
           </a>
-          <a href="/ajith_resume.pdf" className="btn secondary" download>
+          <a href="/Ajithkumar_resume.pdf" className="btn secondary" download>
             <FaDownload />
             Resume
           </a>

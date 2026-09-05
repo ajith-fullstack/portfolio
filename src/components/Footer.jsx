@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <h2>Ajithkumar</h2>
-      <p>Full Stack Developer | React | Angular | Node.js | Shopify</p>
+      <p>Full Stack Developer | MERN Stack | Shopify App Development</p>
       <div className="socials">
         <a
           href="https://github.com/ajith-fullstack"

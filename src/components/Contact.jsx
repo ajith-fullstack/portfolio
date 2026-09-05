@@ -42,7 +42,7 @@ export default function Contact() {
             <h3 className="contact-heading">Let's Connect 👋</h3>
             <p className="contact-text">
               I'm actively looking for Full Stack Developer opportunities. If
-              you're hiring for React, Angular, Node.js, MERN Stack, or Shopify
+              you're hiring for React, Node.js, MERN Stack, or Shopify
               development roles, feel free to reach out. I'd be excited to
               discuss how I can contribute to your team.
             </p>
