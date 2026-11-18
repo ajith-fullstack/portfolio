@@ -36,7 +36,7 @@
 
 .project-card:hover {
   transform: translateY(-10px);
-  border-color: #3b82f6;
+  border-color: #22c55e;
   box-shadow: 0 25px 50px rgba(37, 99, 235, .18);
 }
 
@@ -75,8 +75,8 @@
 }
 
 .tech-stack span {
-  background: #eef2ff;
-  color: #2563eb;
+  background: #f0fdf4;
+  color: #16a34a;
   padding: 8px 15px;
   border-radius: 50px;
   font-size: 14px;
@@ -102,21 +102,21 @@
 }
 
 .project-buttons a:first-child {
-  background: #2563eb;
+  background: #16a34a;
   color: #fff;
 }
 
 .project-buttons a:first-child:hover {
-  background: #1d4ed8;
+  background: #15803d;
 }
 
 .project-buttons a:last-child {
-  border: 2px solid #2563eb;
-  color: #2563eb;
+  border: 2px solid #16a34a;
+  color: #16a34a;
 }
 
 .project-buttons a:last-child:hover {
-  background: #2563eb;
+  background: #16a34a;
   color: #fff;
 }
 

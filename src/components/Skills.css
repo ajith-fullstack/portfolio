@@ -35,7 +35,7 @@
   min-width: 220px;
   height: 65px;
   background: #fff;
-  border: 2px solid #3d83f3;
+  border: 2px solid #22c55e;
   border-radius: 50px;
   transition: all 0.35s ease;
   cursor: pointer;
@@ -45,7 +45,7 @@
 
 .skill-card:hover {
   transform: translateY(-10px) scale(1.08);
-  border-color: #2563eb;
+  border-color: #16a34a;
   box-shadow:
     0 10px 25px rgba(37, 99, 235, .3),
     0 15px 40px rgba(37, 99, 235, .2);
@@ -71,7 +71,7 @@
   transition: color 0.35s ease;
 }
 .skill-card:hover h3 {
-  color: #2563eb;
+  color: #16a34a;
 }
 
 .progress-bar,

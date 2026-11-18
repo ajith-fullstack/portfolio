@@ -14,7 +14,7 @@
 
 .hero-subtitle {
     font-size: 22px;
-    color: #3b82f6;
+    color: #22c55e;
     margin-bottom: 10px;
 }
 
@@ -55,21 +55,21 @@
 }
 
 .primary {
-    background: #2563eb;
+    background: #16a34a;
     color: white;
 }
 
 .primary:hover {
-    background: #1d4ed8;
+    background: #15803d;
 }
 
 .secondary {
-    border: 2px solid #2563eb;
-    color: #2563eb;
+    border: 2px solid #16a34a;
+    color: #16a34a;
 }
 
 .secondary:hover {
-    background: #2563eb;
+    background: #16a34a;
     color: white;
 }
 
@@ -87,7 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #2563eb;
+    color: #16a34a;
     font-size: 22px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
     transition: .3s;
@@ -95,7 +95,7 @@
 
 .hero-socials a:hover {
     transform: translateY(-6px);
-    background: #2563eb;
+    background: #16a34a;
     color: white;
 }
 
@@ -109,9 +109,9 @@
     width: 380px;
     height: 380px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    background: linear-gradient(135deg, #16a34a, #059669);
     padding: 8px;
-    box-shadow: 0 20px 40px rgba(37, 99, 235, .3);
+    box-shadow: 0 20px 40px rgba(22, 163, 74, .3);
 }
 
 .image-box img {
